@@ -1,0 +1,12 @@
+# Core Libraries
+streamlit
+langchain
+langchain-community # For Ollama integration and potentially other community components
+pymongo[srv] # Added [srv] for DNS seedlist connection format (mongodb+srv://)
+python-dotenv # To load environment variables from .env file
+
+# Ollama specific (if running Ollama locally or need the client library)
+# ollama # Uncomment if you need the ollama python client library directly
+
+# Add other dependencies as needed during development
+
